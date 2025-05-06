@@ -1,4 +1,4 @@
-#Montando uma tabuada:
+#Montando uma tabuada: Curso Python - Gustavo Guanabara
 
 n = int(input('Digite seu número'))
 n1 = n * 1
