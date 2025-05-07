@@ -36,7 +36,7 @@ print('A raiz de {}, é igual a {}'.format(n, raiz)) #pra arred. pra cima/ .form
 #-> ACESSAR (https://docs.python.org/3/) - VISUALIZAÇÃO A PARTIR DO SITE OFICIAL
 
 #O ATALHO (IMPORT CNTR + ESPAÇO) LISTA 
------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------_
 # O AMBIENTE VIRTUAL SERVE PRA CENTRALIZAR AS BIBLIOTECAS EM UM SÓ LUGAR
 #COM INSTALAR:
 #python -m venv venv
