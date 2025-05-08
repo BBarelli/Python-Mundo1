@@ -6,4 +6,5 @@ a2 = input ('Segundo aluno: ')
 a3 = input ('Terceiro aluno: ')
 a4 = input ('Quarto aluno: ')
 nomes = a1, a2, a3, a4
-print(random.choice(nomes))
+
+print(random.choice'O aluno escolhido é: 'format.(nomes))
