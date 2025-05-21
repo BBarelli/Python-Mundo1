@@ -33,20 +33,66 @@ Inicia na casa 9, não tem indice final e vai pulando de 3 em 3
 
 # ANALISE
 '''
-#len(frase)      ///       len - significa Comprimento
+*len(frase)      ///       len - significa Comprimento
 21 caracteres
 
 Outra função
 
-#frase.count('o')
-Está pedindo pra contar quantas vezes a letra o aparece
+*ex: frase.count('o')
+Está pedindo pra contar quantas vezes a letra 'o' aparece
 
 uma outra maneira é fazer uma contagem + fatiamento
-#frase.count('o',0,13)
+*ex: frase.count('o',0,13)
 
-#frase.find('deo')    /// find - significa Encontrar
+*ex: frase.find('deo')    /// find - significa Encontrar
 
+*ex: IN Significa (em)
 
+'Curso' in frase
+A resposta é True ou False, nesse caso é True
+'''
 
+#TRANSFORMAÇÃO
 
+'''
+*REPLACE - trocar, substituir
+
+ex: frase.replace('Python','Android')
+
+*UPPER - pra cima (metodo)
+
+ex: frase.upper()
+
+*LOWER - pra baixo (metodo)
+
+ex: frase.lower()
+
+*CAPITALIZE() - em uma frase ele joga todos os caracteres pra minusculo, exceto a primeira letra que permanece Maiuscula 
+
+ex: frase.capitalize()
+
+*TITLE - Faz um papel parecido com o capitalize porém ele conta as palavras em uma frase e coloca em maisucula a primeira letra de cada palavra
+
+ex: frase.title()
+
+* STRIP() - remove todos os espaçoes desnessários da string
+
+ex: frase.stip()
+
+**RSTRIP - remove os espaços a direita da frase
+**LSTRIP - remove os espaços a esquerda da frase
+'''
+
+#DIVISÃO
+
+'''
+ESTUDAR!!: COMO FAZER UM SPLIT
+
+*SPLIT() - vai divir uma string em uma lista onde cada elemento será separado por espaço
+
+ex: frase.split()
+
+*'-'JOIN - vai juntar uma string onde cada elemento era separado por espaço
+
+ex: '-'join(frase)
 '''
