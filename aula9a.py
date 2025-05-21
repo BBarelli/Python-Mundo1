@@ -34,6 +34,8 @@ Inicia na casa 9, não tem indice final e vai pulando de 3 em 3
 # ANALISE
 '''
 *len(frase)      ///       len - significa Comprimento
+
+ex: print(len(frase))
 21 caracteres
 
 Outra função
@@ -96,3 +98,6 @@ ex: frase.split()
 
 ex: '-'join(frase)
 '''
+
+#BÔNUS
+#Para que o 'print'execute um texto grande é só colocar entre as triplas ('''  ''') abrindo e fechando  
