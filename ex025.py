@@ -1,4 +1,4 @@
 # Exercício Python 25: Crie um programa que leia o nome de uma pessoa e diga se tem SILVA no nome
-nome = input('Digite seu nome: ')
+nome = str(input('Digite seu nome: ')).strip()
 
-print(nome.in nome)
+print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
