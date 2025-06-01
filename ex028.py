@@ -3,7 +3,7 @@ qual foi o número escolhido pelo computador, o programa deverá escrever na tel
 
 #Condição Simplificada
 n = int(input('De 0 a 5, em qual número estou pensando: '))
-print('VENCEU' if n == 3 else 'PERDEU')
+print('Parabéns' if n == 3 else 'O computador venceu')
 
 
 # Condição composta
