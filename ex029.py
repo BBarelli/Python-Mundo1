@@ -10,7 +10,7 @@ tx  = 7
 if v > 80:
     kmacima = v - vmax
     multa = kmacima * 7
-    print('Você foi multado, o valor a ser pago é {:.2f}'.format(multa))
+    print('Você foi multado, o valor a ser pago é R${:.2f}'.format(multa))
 else: 
     print('Velocidade permitida.')
 
