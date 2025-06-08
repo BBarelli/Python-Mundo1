@@ -9,7 +9,7 @@ nvsalario15 = salario * 1.15
 
 #condição
 if salario > sminimo:
-    salario = nvsalario10
+    salario = salario + (salario * 10 /100)
     print('Seu salário com aumento passara a ser {:.2f}'.format(salario))
 else:
     salario = nvsalario15
