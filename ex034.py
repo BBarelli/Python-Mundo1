@@ -4,7 +4,7 @@
 
 salario = float(input('Digite o valor do seu salario: '))
 sminimo = 1250.00
-nvsalario10 = salario * 1.10
+nvsalario10 = salario * 1.10 # outra maneira de calcular % // salario + (salario * 10 / 100)
 nvsalario15 = salario * 1.15
 
 #condição
