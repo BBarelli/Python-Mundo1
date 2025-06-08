@@ -14,11 +14,13 @@ else:
     print('Que penas tente outra vez.')'''
 
 from random import randint
+import time
 computador = randint(0, 5)
 jogador = int(input('Digite um numero: '))
-
+print('Você.....')
+time.sleep(3)
 #condição
 if jogador == computador:
-    print('Parabéns você acertou!')
+    print('ACERTOOOOOOOOOU!')
 else:
-    print('Que pena você ERROU!!! kkkk eu pensei no {} e não no {}'.format(computador, jogador))
+    print('ERROU eu pensei no {} e não no {}'.format(computador, jogador))
