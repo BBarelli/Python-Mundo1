@@ -4,15 +4,12 @@
 2. A multa vai custar R$ 7.00 por cada km acima do limite
 '''
 v = int(input('Digite a velocidade do carro: '))
-vmax = 80
 tx  = 7
-
+#condição
 if v > 80:
-    kmacima = v - vmax
-    multa = kmacima * 7
+    multa = (v - 80) * 7
     print('Você foi multado, o valor a ser pago é R${:.2f}'.format(multa))
-else: 
-    print('Velocidade permitida.')
+print('Tenha um bom dia! Dirija com segurança.')
 
     
 
