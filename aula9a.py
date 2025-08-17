@@ -26,7 +26,7 @@ Frase[9::3]
 *Inicia na casa 9, não tem indice final e vai pulando de 3 em 3 
 _______________________________________________________________________________
 
-#ANALISE
+#Busca e verificação (FUNÇÕES)
 @length - sign. comprimento (No Python só 'len')
 ex: print(len(frase))
 21 caracteres
@@ -50,10 +50,12 @@ resultado = 'Curso' in frase
 print(resultado)
 _____________________________________________________________________________
 
-#TRANSFORMAÇÃO
+#Transformação de texto (MÉTODOS)
 
 @REPLACE - trocar, substituir
-ex: frase.replace('Python','Android')
+ex: frase = "Python é divertido"
+nova_frase = frase.replace("divertido", "poderoso")
+print(nova_frase)
 
 @UPPER - pra cima (metodo)
 ex: frase.upper()
